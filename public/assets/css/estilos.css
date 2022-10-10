@@ -1,0 +1,50 @@
+
+body{
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	height: 70vh;
+	background-image: url("/img/fondo.jpg");
+	background-size: cover;
+	background-position: top;
+	color: white;
+}
+.galeria{
+	display: flex;
+	width: 75%;
+	margin:auto;
+}
+img{
+	width: 100%;
+}
+
+h1{
+	text-shadow: 1px 1px 7px  black;
+}
+
+.sombrero{
+	opacity: 0.5;
+}
+.sombrero:hover{
+	opacity: 1;
+}
+
+h1 {
+	color: #f0eff3;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+	color: #f0eff3;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.tpomsg {
+	background-color: #f7ead5;
+	text-align: center;
+	padding: 50px;
+}
+
+
